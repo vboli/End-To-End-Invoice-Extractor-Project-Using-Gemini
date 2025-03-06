@@ -9,7 +9,6 @@ import textwrap
 from PIL import Image
 import google.generativeai as genai
 
-
 os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
